@@ -73,3 +73,13 @@
 .toutiao-shipin:before {
   content: "\e615";
 }
+body {
+  background-color: #f9f9f9;
+}
+.page-nav-bar .van-nav-bar__content {
+  background-color: #667aed;
+}
+.page-nav-bar .van-nav-bar__content .van-ellipsis {
+  color: white;
+  font-size: 40px;
+}
