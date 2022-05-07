@@ -8,7 +8,7 @@
           <span class="text">{{ userInfoList.name }}</span>
         </div>
         <div class="top-right">
-          <van-button plain size="mini" round type="primary"
+          <van-button plain size="mini" round type="primary" to="/user/profile"
             >编辑资料</van-button
           >
         </div>

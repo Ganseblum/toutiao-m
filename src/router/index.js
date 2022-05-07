@@ -9,6 +9,9 @@ Vue.use(VueRouter)
 const routes = [
   { path: '/', redirect: '/home' },
   { path: '/login', name: 'login', component: () => import('@/views/login') },
+  { path: '/search', name: 'search', component: () => import('@/views/search/index.vue') },
+  { path: '/article/:articleId', name: 'article', component: () => import('@/views/article/index.vue'), props: true },
+  { path: '/user/profile', name: 'user-profile', component: () => import('@/views/user-info/index.vue') },
   {
     path: '/',
     component: () => import('@/views/layout'),
